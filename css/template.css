@@ -106,7 +106,6 @@ width: 100%;
 .instagram:hover {
     filter: invert(100%);
 }
-
 @media (max-width: 599px) {
     * {
       padding: 0 0 0 5px;

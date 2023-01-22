@@ -1,0 +1,240 @@
+h1 {
+    position: absolute;
+    left: 900px;
+}
+.videos-div {
+    position: absolute;
+    top: 620px;
+    left: 340px;
+}
+.video-film {
+    border-radius: 15px;
+    width: 600px;
+    height: 340px;
+}
+.mid-container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.illustrator-pc{
+    width: 100%;
+    display: inline;
+}
+.illustrator-phone{
+    width: 100%;
+    display: none;
+}
+.hand {
+    width: 1100px;
+}
+.script{
+    position: absolute;
+    left: 743px;
+    top: 135px;
+}
+.edit {
+    position: absolute;
+    left: 972px;
+    top: 200px;
+}
+.comedy {
+    position: absolute;
+    left: 1100px;
+    top: 415px;
+}
+.sketch {
+    position: absolute;
+    left: 1049px;
+    top: 650px;
+}
+.improv {
+    position: absolute;
+    left: 895px;
+    top: 720px;
+}
+.contact-menu{
+    display: flex;
+    align-items: center;
+}
+.script-div{
+position: relative;
+position: absolute;
+left: 100px;
+width: 100%;
+top: 100px;
+}
+.script-big-hand{
+position: relative;
+position: absolute;
+left: 100px;
+width: 100%;
+}
+.convinced-text{
+    position: relative;
+    left: 190px;
+}
+.con-quest{
+    position: absolute;
+    top: 1300px;
+}
+.video-box{
+    width: 100%;
+    height: 720px;
+}
+.mail{
+    width: 300px;
+    position: absolute;
+    top: 650px;
+    left: 250px;
+}
+.whatsapp{
+    width: 200px;
+    position: absolute;
+    top: 650px;
+    left: 635px;
+}
+.instagram {
+    width: 200px;
+    position: absolute;
+    top: 650px;
+    left: 920px;
+    transition: all 400ms;
+}
+.instagram:hover {
+    filter: invert(100%);
+}
+
+@media (max-width: 599px) {
+    * {
+      padding: 0 0 0 5px;
+    }
+    h1{
+        position: absolute;
+        left: 300px;
+        top: 300px;
+    }
+    .arrow{
+      transform: rotate(40deg);
+      width: 340px;
+      position: absolute;
+      right: 22px;
+      top: 300px;
+    }
+    .film-div {
+      position: absolute;
+      left: 140px;
+    }
+    .job-photo2{
+        position: absolute;
+        bottom: 1240px;
+        left: 500px;
+    } 
+    .job-text2{
+        position: absolute;
+        bottom: 1790px;
+        right: -400px;
+    }
+    .footer2{
+        position: relative;
+        top: 1310px;
+        left: 110px;
+    }
+    .illustrator-div {
+      position: absolute;
+      top: 1360px;
+    }
+    .illustrator-pc{
+        width: 100%;
+        display: none;
+    }
+    .illustrator-phone{
+        width: 750px;
+        position: absolute;
+        left: -15px;
+        display: inline;
+    }
+    .script-big-hand{
+        position: relative;
+        position: absolute;
+        left: 0px;
+        bottom: -120px;
+        width: 100%;
+    }
+    .hand{
+        width: 920px;
+        position: relative;
+        left: 10px;
+    }
+    .script{
+        position: absolute;
+        left: 604px;
+        top: 60px;
+    }
+    .edit {
+        position: absolute;
+        left: 821px;
+        top: 160px;
+    }
+    .comedy {
+        position: absolute;
+        left: 893px;
+        top: 298px;
+    }
+    .sketch {
+        position: absolute;
+        left: 889px;
+        top: 547px;
+    }
+    .improv {
+        position: absolute;
+        left: 747px;
+        top: 616px;
+    }
+    .question-div{
+      position: absolute;
+      top: 2690px;
+      left: 140px;
+    }
+    .videos-div{
+        position: absolute;
+        left: 15px;
+    }
+    .video-film{
+        width: 720px;
+        height: 404px;
+    }
+    .lmk{
+        position: absolute;
+        left: 330px;
+        top: 250px;
+    }
+    .mail{
+        width: 300px;
+        position: absolute;
+        top: 650px;
+        left: 0px;
+    }
+    .whatsapp{
+        width: 200px;
+        position: absolute;
+        top: 650px;
+        left: 300px;
+    }
+    .instagram{
+        width: 200px;
+        position: absolute;
+        top: 650px;
+        left: 505px;
+    }
+    .job-container:hover {
+      filter: invert(100%);
+    }
+    .footerillu{
+        position: absolute;
+        left: 260px;
+        bottom: -2930px;
+      }
+  }

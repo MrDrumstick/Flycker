@@ -261,6 +261,7 @@ footer {
   padding: 5px;
   position: absolute;
   right: 50%;
+  bottom: -140px;
   translate: 50% 50%;
 }
 .footer-c{
@@ -285,6 +286,10 @@ footer p {
 .filmfooter{
   position: relative;
   right: 750px;
+}
+.footerillu{
+  position: relative;
+  bottom: 0px;
 }
 @media (max-width: 599px) {
   * {
@@ -500,7 +505,7 @@ footer{
 }
 .footerb{
   position: relative;
-  top: 1430px;
+  top: 1600px;
   left: 0px;
 }
 .first-h2{
